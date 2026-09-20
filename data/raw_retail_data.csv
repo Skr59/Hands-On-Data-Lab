@@ -1,0 +1,12 @@
+Transaction_ID,Customer_ID,Category,Price,Quantity,Satisfaction_Score
+101,C01,Electronics,250.5,2.0,4.5
+102,C02,Clothing,45.0,1.0,3.8
+103,C03,Electronics,120.0,3.0,4.9
+104,C04,Home,85.5,,2.5
+105,C05,Clothing,60.0,2.0,4.0
+106,C06,Electronics,300.0,1.0,
+107,C07,,150.0,4.0,3.5
+108,C08,Home,95.0,1.0,4.2
+108,C08,Home,95.0,1.0,4.2
+109,C09,Electronics,missing,2.0,4.8
+110,C10,Clothing,55.0,5.0,3.0
