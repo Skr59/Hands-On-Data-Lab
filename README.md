@@ -1,38 +1,23 @@
-# Data Science Fundamentals Assessment
+# Hands-On Data Lab: E-Commerce Sales Analysis
 
-Hi there! Welcome to my repository for **YuvaIntern Task-1**. 
+Hey everyone! This repository contains my complete work for **Task 2: Hands-On Data Lab Implementation** as part of the **YuvaIntern AI/ML Research Specialist Internship**. 
 
-This project is my step-by-step submission for the Data Science Fundamentals track. The main goal here was to build a clean, reproducible Jupyter Notebook from scratch using core Python tools, while following good coding practices and keeping everything well-documented.
-
----
-
-## 📌 Project Overview
-
-In this assessment, I worked through the whole data science basics pipeline:
-- Writing clean Python functions and handling exceptions safely.
-- Working with data structures (lists, dicts, tuples) and reading/writing files using context managers.
-- Running descriptive stats, simulating probability distributions, and performing hypothesis testing (t-tests & correlation).
-- Cleaning and manipulating data with Pandas (filtering, grouping, and handling missing values with mean imputation).
-- Building 2x2 multi-panel plots with Matplotlib and Seaborn to spot trends visually.
+The main goal of this lab was to get hands-on experience with real-world data processing workflows. Instead of using a perfectly clean dataset, I worked with a custom retail dataset that had typical real-world flaws—like duplicate rows, messy string values mixed inside numeric columns, and missing data points—and built a full end-to-end pipeline using NumPy, Pandas, Matplotlib, and Seaborn.
 
 ---
 
-## 🛠️ Tech Stack & Tools
-
-* **Language:** Python 3.x
-* **Notebook Environment:** Jupyter Notebook / VS Code
-* **Data & Stats:** Pandas, NumPy, SciPy (`scipy.stats`)
-* **Data Visualization:** Matplotlib, Seaborn
-* **Version Control:** Git & GitHub
-
----
-
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
-├── data/                       # Dataset files
-├── notebooks/                  # Main Jupyter Notebook
-│   └── data_science_fundamentals.ipynb
-├── .gitignore                  # Prevents tracking cache/temp files
-├── README.md                   # Project summary
-└── requirements.txt            # Package dependencies
+Hands-On-Data-Lab/
+│
+├── data/
+│   ├── raw_retail_data.csv       # Raw synthetic retail sales dataset
+│   └── category_insights.png     # Saved Seaborn visualization output
+│
+├── notebooks/
+│   └── 01_hands_on_data_lab.ipynb  # Main Jupyter Notebook containing all code
+│
+├── .gitignore                    # Version control exclusions
+├── requirements.txt              # Required Python packages
+└── README.md                     # Project documentation
